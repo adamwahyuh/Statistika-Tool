@@ -51,5 +51,6 @@ print('Mean :',meanData)
 
 #Panjang/Lebar Kelas 
 panjangKelas = rangeData/jumlahKelas
-panjangKelas = round(panjangKelas)
 print('Panjang Kelas :',panjangKelas)
+panjangKelas = round(panjangKelas)
+print('Panjang Kelas (Round):',panjangKelas)
