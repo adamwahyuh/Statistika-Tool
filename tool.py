@@ -17,11 +17,11 @@ def frekuensi(myData):
         freq[i]= freq.get(i,0)+1
     return freq
 #
-frequency_dict = frekuensi(data)
+frekuensiDicty = frekuensi(data)
 print('Frekuensinya :')
-for key, value in frequency_dict.items():
+for key, value in frekuensiDicty.items():
     print(f'{key} : {value}')
-print('Jumlah Data : ', len(frequency_dict))
+print('Jumlah Data : ', len(frekuensiDicty))
 
 # Logaritma 
 n =len(data)
