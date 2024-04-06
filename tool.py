@@ -43,7 +43,7 @@ print('Max :',maxData )
 
 # Range 
 rangeData = maxData - minData
-print('Range :',rangeData)
+print('Range :',rangeData) # Hai
 
 # Mean
 meanData = sum(data)/len(data)
